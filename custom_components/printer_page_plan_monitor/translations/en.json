@@ -88,6 +88,9 @@
       },
       "ink_yellow": {
         "name": "Yellow ink"
+      },
+      "ink_tricolor": {
+        "name": "Color ink"
       }
     }
   }
