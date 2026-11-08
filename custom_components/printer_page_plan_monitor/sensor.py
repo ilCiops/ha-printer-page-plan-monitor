@@ -91,7 +91,7 @@ SENSORS = (
     ),
     PagePlanSensorDescription(
         key="ink_tricolor",
-        translation_key="ink_yellow",
+        translation_key="ink_tricolor",
         native_unit_of_measurement=PERCENTAGE,
         icon="mdi:water-opacity",
         value_fn=lambda d: d.printer.ink_tricolor,
