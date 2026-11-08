@@ -38,5 +38,6 @@ async def async_get_config_entry_diagnostics(hass, entry: PagePlanConfigEntry):
             "ink_cyan": data.printer.ink_cyan,
             "ink_magenta": data.printer.ink_magenta,
             "ink_yellow": data.printer.ink_yellow,
+            "ink_tricolor": data.printer.ink_tricolor,
         },
     }
