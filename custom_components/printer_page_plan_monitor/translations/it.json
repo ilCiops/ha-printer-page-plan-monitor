@@ -88,6 +88,9 @@
       },
       "ink_yellow": {
         "name": "Inchiostro giallo"
+      },
+      "ink_tricolor": {
+        "name": "Inchiostro Colore"
       }
     }
   }
