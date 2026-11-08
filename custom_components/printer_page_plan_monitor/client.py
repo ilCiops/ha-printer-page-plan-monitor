@@ -16,7 +16,7 @@ class PrinterData:
     ink_cyan: int | None
     ink_magenta: int | None
     ink_yellow: int | None
-
+    ink_tricolor: int | None
 
 class LEDMPrinterClient:
     def __init__(self, session: aiohttp.ClientSession, host: str) -> None:
@@ -42,6 +42,7 @@ class LEDMPrinterClient:
             "Cyan": None,
             "Magenta": None,
             "Yellow": None,
+            "CyanMagentaYellow": None,
         }
 
         for elem in root.iter():
@@ -72,4 +73,5 @@ class LEDMPrinterClient:
             ink_cyan=inks["Cyan"],
             ink_magenta=inks["Magenta"],
             ink_yellow=inks["Yellow"],
+            ink_tricolor=inks["CyanMagentaYellow"],
         )
