@@ -89,6 +89,13 @@ SENSORS = (
         icon="mdi:water-opacity",
         value_fn=lambda d: d.printer.ink_yellow,
     ),
+    PagePlanSensorDescription(
+        key="ink_tricolor",
+        translation_key="ink_yellow",
+        native_unit_of_measurement=PERCENTAGE,
+        icon="mdi:water-opacity",
+        value_fn=lambda d: d.printer.ink_tricolor,
+    ),
 )
 
 
